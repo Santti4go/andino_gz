@@ -58,7 +58,7 @@ _Note: You can use `--world_name` flag to indicate other [world](andino_gz/world
 By default the ros bridge and rviz are initialized. In case you prefer to disable any of those you can do it via its flags:
 
   ```sh
-  ros2 launch andino_gz andino_gz.launch.py ros_bridge:=false rviz:=false
+  ros2 launch andino_gz andino_gz.launch.py ros_bridge:=False rviz:=False
   ```
 
 To see a complete list of available arguments for the launch file do:
